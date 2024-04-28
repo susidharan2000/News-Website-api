@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2{
+    color: rgb(0, 0, 0);
+}
+span{
+    color: rgb(4, 180, 4);
+}
+.title-span{
+    color: #fff;
+}
+.author{
+    color: rgb(83, 83, 83) !important;
+    font-size: small;
+}
+ul li a{
+    color: rgb(0, 255, 255);
+}
+.business-title{
+    margin-top:70px ;
+}
+.read{
+    text-decoration: none;
+    font-size:small;
+}
+
+.nav-link{
+    transition: all 0.4s;
+}
+.nav-link:hover{
+    color: rgb(4, 180, 4);
+}
+.home{
+    color: #fff;
+    transition: all 0.4s;
+}
+.home:hover{
+    text-decoration: underline;
+    
+}
