@@ -27,7 +27,7 @@ const businessApi = fetch(`https://newsapi.org/v2/top-headlines?country=us&categ
   })
   .catch((error)=>{console.log(error)});
 
- /*  const TechCrunchApi = fetch('https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=3f7719379361463698b0832694154796');
+ const TechCrunchApi = fetch('https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=3f7719379361463698b0832694154796');
   TechCrunchApi
   .then((res)=>{ return res.json()})
   .then((data)=>{
@@ -48,8 +48,8 @@ const businessApi = fetch(`https://newsapi.org/v2/top-headlines?country=us&categ
     `;
     }
   })
-  .catch((error)=>{console.log(error)}); */
-/* 
+  .catch((error)=>{console.log(error)}); 
+
   const wallStreetAPI = fetch('https://newsapi.org/v2/everything?domains=wsj.com&apiKey=3f7719379361463698b0832694154796');
   wallStreetAPI
   .then((res)=>{ return res.json()})
@@ -71,8 +71,8 @@ const businessApi = fetch(`https://newsapi.org/v2/top-headlines?country=us&categ
     `;
     }
   })
-  .catch((error)=>{console.log(error)});  */
-/* 
+  .catch((error)=>{console.log(error)}); 
+
   const AppleApi = fetch(`https://newsapi.org/v2/everything?q=apple&from=2024-04-24&to=2024-04-24&sortBy=popularity&apiKey=3f7719379361463698b0832694154796`);
    AppleApi
   .then((res)=>{ return res.json()})
@@ -94,4 +94,4 @@ const businessApi = fetch(`https://newsapi.org/v2/top-headlines?country=us&categ
     `;
     }
   })
-  .catch((error)=>{console.log(error)}); */
+  .catch((error)=>{console.log(error)}); 
